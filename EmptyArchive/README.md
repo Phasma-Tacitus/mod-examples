@@ -12,9 +12,9 @@ Copy the ```archive.dat``` file over the original file in the directory of the r
 
 ### Technical Details
 
-This archive was created using ```construct``` with the following command:
+This archive can be recreated using ```construct``` with the following command:
 ```
-construct --solid --levels rrrrrrrrrrcrrrcc
+construct archive --solid --levels rrrrrrrrrrcrrrcc
 ```
 
 * Levels 10, 14, and 15 are cyberspace.
