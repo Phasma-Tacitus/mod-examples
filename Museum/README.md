@@ -1,11 +1,11 @@
 ## Museum
 
-This is an archive-based demonstration mod, highlighting the engine's features.
+This is a demonstration mod, highlighting the engine's features.
 This mod is the byproduct of a YouTube series describing various elements of modding the original System Shock.
 
 ### Installation Instructions
 
-Copy the ```archive.dat``` file over the original file in the directory of the resources.
+Copy the ```archive.dat``` file, together with the other ```*.res``` files over the original files in the directory of the resources.
 
 ### Requirements
 
