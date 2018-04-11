@@ -18,13 +18,14 @@ Then start a new game.
 
 ### Technical Details
 
-Because of the length of the code and the complexity of the generation, the randomization is split up in two parts.
-The first part is generated while the player is in level 1, the second part then on level 2.
+While hacker is in the first room, the reactor code is created by three random timers.
+Two timers are creating digits for the two code-parts, the third timer is shifting the two parts for the next digit.
+Timers are stopped by entering one of the two far-end tiles of the room.
 
-Each digit is handled by timers with varying timings.
+The code needs to be generated before hacker can take the data reader, as changing any quest variable closes the data reader.
 
 #### Game variables in use:
 
-* Boolean 331 and 332 to mark completion of the two parts.
+* Boolean 331 to mark completion of the two parts.
 * Integer 31 and 32 (the actual code).
-* Integer 36, 37, and 38 for internal state, reset to zero after completion.
+* Integer 36 and 37, for internal state, reset to zero after completion.
