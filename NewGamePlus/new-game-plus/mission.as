@@ -102,8 +102,8 @@ void OfflineChangeLanguage(void)
     Sys.GetCvarValue("language", lang);
 
     {
-    	SetTitle("Citadel Station: New Game Plus");
-        SetDescription("This starts the game with additional inventory.\nYou can use the editor HackEd to modify it further.\nSee README.md file.");
+    	SetTitle("Citadel: New Game Plus");
+        SetDescription("This starts the game with additional inventory.\nYou can use the editor HackEd to modify it further.\nSee README.md file for details.");
     }
 }
 
