@@ -55,9 +55,9 @@ If you want to change the initial state, do the following:
 > Otherwise the engine might crash if the editor is saving the file at the same time.
 
 
-#### Initial power level of hacker
+#### Initial power level of hacker on Citadel
 
-Although the game state specifies a power level of 100%, a dedicated trigger on the first level reduces this value.
+Although the game state specifies a power level of 100%, a dedicated trigger on the first level of Citadel reduces this value.
 If you want to avoid this and have the game state set the power level exclusively, you need to do the following:
 
 * Load the mod as described above
