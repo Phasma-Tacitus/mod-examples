@@ -13,6 +13,7 @@ It is not meant to be a "static" mission - Rather, it is a prepared mod that can
 > start a new regular game, immediately save it, and then modify the savegame file directly,
 > as described [here](https://github.com/inkyblackness/hacked/wiki/Project#savegame-editing).
 
+Read more about "New Game Plus" modes [on Wikipedia](https://en.wikipedia.org/wiki/New_Game_Plus).
 
 ### Contained changes
 
